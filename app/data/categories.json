@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "name": "Artisan Breads",
+        "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "description": "Handcrafted daily using traditional sourdough starters and organic flour. Our signature loaves are fermented for 24 hours to develop complex flavors.",
+        "items": [
+            { "id": 1, "name": "Sourdough Classic", "description": "Traditional sourdough loaf with a crisp crust and tangy flavor." ,"price": "Rs 200"},
+            { "id": 2, "name": "Multigrain Seeded", "description": "Hearty bread packed with seeds and whole grains.","price": "Rs 250" },
+            { "id": 3, "name": "French Baguette", "description": "Classic French baguette with a golden crust." ,"price": "Rs 150"},
+            { "id": 4, "name": "Rustic Country", "description": "Country-style bread with a chewy texture and rich flavor." ,"price": "Rs 180"}
+        ],
+        "featured": true
+    },
+    {
+        "id": 2,
+        "name": "French Pastries",
+        "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1989&q=80",
+        "description": "Delicate layers of buttery perfection. Each croissant is rolled by hand and laminated with premium French butter for an authentic Parisian experience.",
+        "items": [
+            { "id": 1, "name": "Classic Croissant", "description": "Flaky, buttery croissant made with French butter." ,"price": "Rs 120"},
+            { "id": 2, "name": "Pain au Chocolat", "description": "Croissant dough filled with rich chocolate." ,"price": "Rs 150" },
+            { "id": 3, "name": "Almond Croissant", "description": "Croissant filled with almond cream and topped with sliced almonds." ,"price": "Rs 180"},
+            { "id": 4, "name": "Seasonal Fruit Danish", "description": "Danish pastry topped with seasonal fruits." , "price":"Rs 212" }
+        ],
+        "featured": false
+    },
+    {
+        "id": 3,
+        "name": "Artisan Cakes",
+        "image": "https://images.unsplash.com/photo-1621303837174-89787a7d4729?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80",
+        "description": "Celebration-worthy creations made from scratch with premium ingredients. Custom designs available for special occasions and memorable moments.",
+        "items": [
+            { "id": 1, "name": "Chocolate Decadence", "description": "Rich chocolate cake layered with chocolate ganache." ,"price": "Rs 300"},
+            { "id": 2, "name": "Vanilla Bean Layer", "description": "Classic vanilla cake with creamy vanilla frosting." ,"price": "Rs 280" },
+            { "id": 3, "name": "Red Velvet Classic", "description": "Moist red velvet cake with cream cheese frosting." ,"price": "Rs 320"},
+            { "id": 4, "name": "Seasonal Fruit Tart", "description": "Tart filled with pastry cream and topped with fresh fruit." ,"price": "Rs 350"}
+        ],
+        "featured": true
+    },
+    {
+        "id": 4,
+        "name": "Fresh Cookies",
+        "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80",
+        "description": "Baked fresh throughout the day with real butter and premium chocolate chips. Perfect for sharing or treating yourself to a moment of pure joy.",
+        "items": [
+            { "id": 1, "name": "Chocolate Chip Classic", "description": "Classic cookie loaded with chocolate chips.", "price": "Rs 80" },
+            { "id": 2, "name": "Oatmeal Raisin", "description": "Chewy oatmeal cookie with plump raisins.", "price": "Rs 75" },
+            { "id": 3, "name": "Double Chocolate", "description": "Rich chocolate cookie with chocolate chunks.", "price": "Rs 90" },
+            { "id": 4, "name": "Sugar Cookie", "description": "Soft sugar cookie with a hint of vanilla.", "price": "Rs 70" }
+        ],
+        "featured": false
+    },
+    {
+        "id": 5,
+        "name": "Morning Muffins",
+        "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+        "description": "Start your day right with our wholesome muffins made with fresh fruits and natural ingredients. Perfectly moist and bursting with flavor.",
+        "items": [
+            { "id": 1, "name": "Blueberry Burst", "description": "Muffin packed with fresh blueberries." },
+            { "id": 2, "name": "Banana Walnut", "description": "Banana muffin with crunchy walnuts." },
+            { "id": 3, "name": "Chocolate Chip", "description": "Muffin loaded with chocolate chips." },
+            { "id": 4, "name": "Lemon Poppy Seed", "description": "Tangy lemon muffin with poppy seeds." }
+        ],
+        "featured": false
+    },
+    {
+        "id": 6,
+        "name": "Coffee & Beverages",
+        "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "description": "Perfectly roasted artisan coffee beans sourced directly from sustainable farms. Each cup is crafted to complement our baked goods beautifully.",
+        "items": [
+            { "id": 1, "name": "House Blend Espresso", "description": "Bold espresso made from our house blend." },
+            { "id": 2, "name": "French Press Coffee", "description": "Smooth coffee brewed in a French press." },
+            { "id": 3, "name": "Seasonal Lattes", "description": "Lattes featuring seasonal flavors." },
+            { "id": 4, "name": "Fresh Herbal Teas", "description": "Selection of herbal teas brewed fresh." }
+        ],
+        "featured": true
+    }
+]
