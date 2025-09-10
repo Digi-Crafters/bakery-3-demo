@@ -101,6 +101,15 @@ const CategoryPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-[#FFF1F2] py-4 md:py-20  ">
+      <div className="container mx-auto px-4 max-w-4xl mb-6 md:mb-8">
+        <Link
+          href="/menu"
+          className="inline-flex items-center px-5 py-3 bg-[#D4919E] text-white rounded-full font-serif font-medium shadow hover:bg-[#b86a7c] transition-colors duration-300"
+        >
+          <ArrowLeft className="w-5 h-5 mr-2" />
+          Back to Menu
+        </Link>
+      </div>
       <motion.div
         className="container mx-auto px-4 max-w-4xl"
         variants={containerVariants}

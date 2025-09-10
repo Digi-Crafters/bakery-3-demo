@@ -5,10 +5,12 @@ import Features from "./components/Features";
 import Menu from "./components/Menu";
 import OurStory from "./components/OurStory";
 import Contact from "./components/Contact";
+import Header from "./components/Header";
 
 const page = () => {
   return (
     <div>
+      <Header/>
       <Hero />
       <IntroSection />
       <Features/>
